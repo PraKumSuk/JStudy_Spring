@@ -12,6 +12,9 @@ import org.springframework.context.support.ClassPathXmlApplicationContext;
  */
 public class MainApp {
 	public static void main(String[] args) {
+
+		String dummy = null;
+
 		ApplicationContext context = new ClassPathXmlApplicationContext("BeansSPK.xml");
 
 		HelloWorld objA = (HelloWorld) context.getBean("helloWorld");
