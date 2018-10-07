@@ -17,4 +17,14 @@ public class HelloWorld {
 	public void getMessage(){
 		System.out.println("Your Message : " + message);
 	}
+
+	private String dummy;
+
+	public void setDummy(String dummy{
+		this.dummy  = dummy;
+	}
+
+	public void getDummy(){
+		System.out.println("Your dummy : " + dummy);
+	}
 }
